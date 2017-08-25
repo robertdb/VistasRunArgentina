@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <a href="index.html"><img id ="logo" src="img/logo.png" alt=""></a>
+    <header>
+      
+      <input type="checkbox" id="btn-menu" name="" value="">
+      <label for="btn-menu" for=""><img id="menu-icon"  src="img/icons/menu-icon.png" alt=""></label>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Carreras</a></li>
+          <li><a href="#">Amigos</a></li>
+          <li><a href="profile.html">Perfil</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="flex-nav-container">
+        <div class="flex-item">
+          <a class="section-mobile" href="index.html">
+            <img class="icon-nav"src="img/home.png" alt="">
+          </a>
+        </div>
+        <div class="flex-item">
+          <a class="section-mobile" href="#">
+            <img  class="icon-nav" src="img/marathons-map.png" alt="">
+          </a>
+        </div>
+        <div class="flex-item">
+          <a class="section-mobile" href="profile.html">
+            <img  class="icon-nav" src="img/profile.png" alt="">
+          </a>
+        </div>
+      </div>
+
+    </header>
+
+
+    <div class="container">
+      <!--Section events-->
+      <section class="item-events">
+            <div class="create-event">
+              <!--create events-->
+              <strong>Crear evento</strong>
+            </div>
+            <div class="my-events">
+              <!--event list-->
+              <div class="list-title-events"><strong>Mis eventos</strong></div>
+              <article class="event">Olivos - 9am</article>
+              <article class="event">Lagos de palermo - 20pm</article>
+              <article class="event">Lagos de palermo - 21pm</article>
+            </div>
+      </section>
+
+      <!--Section publications-->
+      <section class="item-publications">
+        <!--create publiction -->
+        <div class="create-post">
+          <img class="user-img" src="img/users/user-1.jpg" alt="">
+          <form class="form-publication" action="index.html" method="post">
+            <textarea  class="text-form"rows="2" cols="30" placeholder="¿En que estás pensando?"></textarea>
+            <div id="form-files">
+              <img id="btn_img" width="25px" height="25px" src="img/icons/upload-img.png" alt="">
+              <input type="file" id="btn_file">
+              <img width="25px" height="25px" src="img/icons/upload-video.png" alt="">
+              <input type="file" id="btn_file">
+            </div>
+            <input id="submit-publication"type="submit" name="" value="Publicar">
+          </form>
+        </div>
+        <!--show publiction(small view)-->
+        <article class="publication-container">
+          <img src="img/users/user-2.jpg" alt="" class="user-img">
+          <div class="detail-publication">
+            <div class="user-info-publication">
+              <h5><a href="#" class="profile-link">Jose Sastre</a></h5>
+              <p class="">Hace 30 minutos</p>
+            </div>
+            <div class="text-publication">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="line-divider"></div>
+            <div class="comments-publication">
+              <div class="comment-publication">
+                <img src="img/users/user-1.jpg" alt="" class="user-img">
+                <div class="detail-comment-publication">
+                  <div class="user-info-publication">
+                    <h5><a href="#" class="profile-link">Olivia</a></h5>
+                    <p class="">Hace 30 minutos</p>
+                  </div>
+                  <div class="text-publication">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-publication">
+                <img src="img/users/user-1.jpg" alt="" class="user-img">
+                <div class="detail-comment-publication">
+                  <div class="user-info-publication">
+                    <h5><a href="#" class="profile-link">Olivia</a></h5>
+                    <p class="">Hace 10 minutos</p>
+                  </div>
+                  <div class="text-publication">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication-container">
+          <img src="img/users/user-2.jpg" alt="" class="user-img">
+          <div class="detail-publication">
+            <div class="user-info-publication">
+              <h5><a href="#" class="profile-link">Jose Sastre</a></h5>
+              <p class="">Hace 30 minutos</p>
+            </div>
+            <div class="text-publication">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="line-divider"></div>
+            <div class="comments-publication">
+              <div class="comment-publication">
+                <img src="img/users/user-1.jpg" alt="" class="user-img">
+                <div class="detail-comment-publication">
+                  <div class="user-info-publication">
+                    <h5><a href="#" class="profile-link">Olivia</a></h5>
+                    <p class="">Hace 30 minutos</p>
+                  </div>
+                  <div class="text-publication">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-publication">
+                <img src="img/users/user-1.jpg" alt="" class="user-img">
+                <div class="detail-comment-publication">
+                  <div class="user-info-publication">
+                    <h5><a href="#" class="profile-link">Olivia</a></h5>
+                    <p class="">Hace 10 minutos</p>
+                  </div>
+                  <div class="text-publication">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!--show publiction(small view)-->
+        <article class="publication-container">
+          <img src="img/users/user-2.jpg" alt="" class="user-img">
+          <div class="detail-publication">
+            <div class="user-info-publication">
+              <h5><a href="#" class="profile-link">Jose Sastre</a></h5>
+              <p class="">Hace 30 minutos</p>
+            </div>
+            <div class="text-publication">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="line-divider"></div>
+            <div class="comments-publication">
+              <div class="comment-publication">
+                <img src="img/users/user-1.jpg" alt="" class="user-img">
+                <div class="detail-comment-publication">
+                  <div class="user-info-publication">
+                    <h5><a href="#" class="profile-link">Olivia</a></h5>
+                    <p class="">Hace 30 minutos</p>
+                  </div>
+                  <div class="text-publication">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-publication">
+                <img src="img/users/user-1.jpg" alt="" class="user-img">
+                <div class="detail-comment-publication">
+                  <div class="user-info-publication">
+                    <h5><a href="#" class="profile-link">Olivia</a></h5>
+                    <p class="">Hace 10 minutos</p>
+                  </div>
+                  <div class="text-publication">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!--show publiction(small view)-->
+        <article class="publication-container">
+          <img src="img/users/user-2.jpg" alt="" class="user-img">
+          <div class="detail-publication">
+            <div class="user-info-publication">
+              <h5><a href="#" class="profile-link">Jose Sastre</a></h5>
+              <p class="">Hace 30 minutos</p>
+            </div>
+            <div class="text-publication">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="line-divider"></div>
+            <div class="comments-publication">
+              <div class="comment-publication">
+                <img src="img/users/user-1.jpg" alt="" class="user-img">
+                <div class="detail-comment-publication">
+                  <div class="user-info-publication">
+                    <h5><a href="#" class="profile-link">Olivia</a></h5>
+                    <p class="">Hace 30 minutos</p>
+                  </div>
+                  <div class="text-publication">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-publication">
+                <img src="img/users/user-1.jpg" alt="" class="user-img">
+                <div class="detail-comment-publication">
+                  <div class="user-info-publication">
+                    <h5><a href="#" class="profile-link">Olivia</a></h5>
+                    <p class="">Hace 10 minutos</p>
+                  </div>
+                  <div class="text-publication">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+
+      </section>
+    </div>
+    <!--Section map-->
+    <section class="item-map">
+      <img id="map" src="img/map-example.png" alt="">
+    </section>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
